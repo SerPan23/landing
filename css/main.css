@@ -120,6 +120,7 @@
  color: #fff;
  text-align: center;
  border-bottom-left-radius: 93%;
+ transition: .0s;
 }
 .team .item:hover .des{
  height: 100%;
