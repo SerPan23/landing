@@ -121,7 +121,6 @@
  text-align: center;
  border-bottom-left-radius: 93%;
 }
-
 .team .item:hover .des{
  height: 100%;
  background:#f973007d;
@@ -131,6 +130,7 @@
  top: 0;
  border-bottom-left-radius: 0;
 }
+
 .contact-form{
  margin: 6em 0;
  position: relative;  
