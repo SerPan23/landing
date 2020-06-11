@@ -66,19 +66,17 @@
 }
 
 /*Portfolio*/
-.portfolio{
-    margin: 4em 0;
-    position: relative; 
-}
 .portfolio h1{
     color:#F97300;
     margin: 0.5em; 
 }
-.portfolio img{
-  height: 15rem;
-  width: 100%;
-  margin: 1em;
+.carousel-caption{
+    background-color: rgba(170, 170, 170, 0.644);
 }
+.carousel-caption h5, p{ 
+    color: black;
+}
+
 
 
 .blog{
