@@ -23,8 +23,8 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <a class="navbar-brand" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">DARK_LED</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,19 +32,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#about" data-toggle="collapse" data-target=".navbar-collapse.show">О нас</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#portfolio" data-toggle="collapse" data-target=".navbar-collapse.show">Портфолио</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#blog">Blog</a>
+                    <a class="nav-link " href="#blog" data-toggle="collapse" data-target=".navbar-collapse.show">Блог</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#team">Team</a>
+                    <a class="nav-link " href="#team" data-toggle="collapse" data-target=".navbar-collapse.show">Команда</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#contact">Contact</a>
+                    <a class="nav-link " href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">Контакты</a>
                 </li>
 
             </ul>
@@ -56,10 +56,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="description">
-                <h1> Hello ,Welcome To My official Website
-                <p> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                    officia deserunt mollit anim id est laborum.
-                </p>
+                <h1>Добро пожаловть на сайт команды DARK_LED</h1>
             </div>
         </div>
     </header>
@@ -69,11 +66,11 @@
     <div class="row about"">
         <div class="col-lg-4 col-md-4 col-sm-12">
             <img src="images/headerback.jpg" class="img-fluid">
-            <span class="text-justify">S.Web Developer</span>
+            <span class="text-justify">Студия Web разработки</span>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12 desc">
     
-            <h3>D.John</h3>
+            <h3>DARK_LED</h3>
             <p>
                 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -126,7 +123,7 @@
 
     <a name="portfolio"></a>
     <div id="carouselExampleCaptions" class="carousel slide portfolio" data-ride="carousel">
-        <h1 class="text-center">Portfolio</h1>
+        <h1 class="text-center">Портфолио</h1>
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -161,7 +158,7 @@
     <a name="blog"></a>
     <div class="blog" >
         <div class="container">
-            <h1 class="text-center">Blog</h1>
+            <h1 class="text-center">Блог</h1>
             <div class="row">
                 <div class="col-md-4 col-lg-4 col-sm-12">
                     <div class="card">
@@ -226,28 +223,28 @@
     <a name="team"></a>
     <div class="team">
         <div class="container">
-            <h1 class="text-center">Our Team</h1>
+            <h1 class="text-center">Наша команда</h1>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 item">
                     <img src="images/headerback.jpg" class="img-fluid" alt="team">
                     <div class="des">
-                        Chris
-                    </div>
-                    <span class="text-muted">S.enginner</span>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 item">
-                    <img src="images/headerback.jpg" class="img-fluid" alt="team">
-                    <div class="des">
-                        Layla
+                        Сергей
                     </div>
                     <span class="text-muted">Front End Developer</span>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 item">
                     <img src="images/headerback.jpg" class="img-fluid" alt="team">
                     <div class="des">
-                        J.Jirard
+                        Владимир
                     </div>
-                    <span class="text-muted">Team Manger</span>
+                    <span class="text-muted">Front End Developer</span>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 item">
+                    <img src="images/headerback.jpg" class="img-fluid" alt="team">
+                    <div class="des">
+                        Максим
+                    </div>
+                    <span class="text-muted">Back End Developer</span>
                 </div>
             </div>
         </div>
@@ -260,14 +257,14 @@
             <form>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <h1>Get in Touch</h1>
+                        <h1>Связаться с нами</h1>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 right">
                         <div class="form-group">
-                            <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+                            <input type="text" class="form-control form-control-lg" placeholder="Ваше имя" name="">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com"
+                            <input type="email" class="form-control form-control-lg" placeholder="ВашаПочта@email.com"
                                 name="email">
                         </div>
                         <div class="form-group">
@@ -275,7 +272,7 @@
     
              </textarea>
                         </div>
-                        <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                        <input type="submit" class="btn btn-secondary btn-block" value="Отправить" name="">
                     </div>
                 </div>
             </form>

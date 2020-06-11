@@ -15,24 +15,15 @@
 }
 .description{
     position: absolute;
-    top: 30%;
+    top: 25%;
     margin: auto;
     padding: 2em;
 }
 .description h1{
     color:#F97300 ;
 }
-.description p{
-    color:#666;
-    font-size: 20px;
-    width: 50%;
-    line-height: 1.5;
-}
-.description button{
-    border:1px  solid #F97300;
-    background:#F97300;
-    color:#fff;
-}
+
+
 .about{
     margin: 4em 0;
     padding: 1em;
@@ -71,7 +62,7 @@
     margin: 0.5em; 
 }
 .carousel-caption{
-    background-color: rgba(170, 170, 170, 0.644);
+    background-color: rgba(194, 194, 194, 0.644);
 }
 .carousel-caption h5, p{ 
     color: black;
@@ -117,7 +108,7 @@
  background: #F97300;
  color: #fff;
  text-align: center;
- border-bottom-left-radius: 93%;
+ border-bottom-left-radius: 85%;
  transition: .0s;
 }
 .team .item:hover .des{
