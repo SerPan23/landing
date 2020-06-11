@@ -73,7 +73,7 @@
 .carousel-caption{
     background-color: rgba(244, 244, 244, 0.79);
 }
-.carousel-caption h5, p{ 
+.carousel-caption h5, p, h6{ 
     color: black;
 }
 
