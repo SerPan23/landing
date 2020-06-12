@@ -20,7 +20,8 @@
  min-width: 100%;
  left: 0;
  top: 0;
- background: rgba(244, 244, 244, 0.79);
+ background: rgba(221, 221, 221, 0.79);
+ /*background: rgba(244, 244, 244, 0.79);*/
 }
 .description{
     position: absolute;
@@ -29,7 +30,7 @@
     padding: 2em;
 }
 .description h1{
-    color:#F97300 ;
+    color:#134783 ;
 }
 
 
@@ -39,7 +40,7 @@
     position: relative;
 }
 .about h1{
-    color:#F97300;
+    color:#134783;
     margin: 2em;
 }
 .about span{
@@ -62,7 +63,7 @@
 
 /*Portfolio*/
 .portfolio h1{
-    color:#F97300;
+    color:#134783;
     margin: 0.5em; 
 }
 .carousel-caption{
@@ -73,43 +74,19 @@
 }
 
 
-
-.blog{
- margin: 4em 0;
- position: relative; 
-}
-.blog h1{
- color:#F97300;
- margin: 2em; 
-}
-.blog .card{
- box-shadow: 0 0 20px #ccc;
-}
-.blog .card img{
- width: 100%;
- height: 12em;
-}
-.blog .card-title{
- color:#F97300;
-  
-}
-.blog .card-body{
- padding: 1em;
-}
-
 .team{
  margin: 4em 0;
  position: relative;  
 }
 .team h1{
- color:#F97300;
+ color:#134783;
  margin: 2em; 
 }
 .team .item{
  position: relative;
 }
 .team .des{
- background: #F97300;
+ background: #134783;
  color: #fff;
  text-align: center;
  border-bottom-left-radius: 85%;
@@ -117,7 +94,8 @@
 }
 .team .item:hover .des{
  height: 100%;
- background:#f973007d;
+ /*background:#f973007d;*/
+ background:#0c2d537d;
  position: absolute;
  width: 92%;
  padding: 5em;
@@ -131,13 +109,14 @@
 }
 .contact-form h1{
  padding:2em 1px;
- color: #F97300; 
+ color: #134783; 
 }
 .contact-form .right{
  max-width: 600px;
 }
 .contact-form .right .btn-secondary{
- background:  #F97300;
+ /*background:  #F97300;*/
+ background: #134783;
  color: #fff;
  border:0;
 }
