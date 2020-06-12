@@ -42,11 +42,6 @@
     color:#F97300;
     margin: 2em;
 }
-.about img{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%
-}
 .about span{
     display: block;
     color: #888;
