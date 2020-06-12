@@ -29,8 +29,13 @@
     margin: auto;
     padding: 2em;
 }
-.description h1{
-    color:#134783 ;
+.description h2{
+    color:#134783;
+}
+.description p{
+    color:#134783;
+    font-size: 1.7em;
+    font-weight: 500;
 }
 
 
