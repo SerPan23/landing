@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.header').height($(window).height());
+    $('.').height($(window).height());
 });
 
 $('.navbar-nav>li>a').on('click', function () {
