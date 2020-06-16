@@ -258,12 +258,7 @@
     </div>
     <script>
         /*$("#form").on("submit", function () {
-            /*$.ajax({
-                url: '/http://127.0.0.1:5000/form',
-                method: 'GET',
-                dataType: 'plain',
-                data: $(this).serialize(),
-            });
+            /*
             $.ajax({
                 type: "POST",
                 url: "http://mail-api-land.herokuapp.com/form",
@@ -282,9 +277,10 @@
                 $.ajax({
                     type: "POST",
                     url: "https://mail-api-land.herokuapp.com/form", //ссылка
+                    //url: 'http://127.0.0.1:5000/form',
                     data: form_data,
                     success: function () {
-                        console.log("Спасибо, Заявка отправлена!")
+                        //console.log("Спасибо, Заявка отправлена!")
                         //alert('Спасибо, Заявка отправлена!'); //То что выводится после успешно отправки
                         $('#form')[0].reset(); //скидываем нашу форму
                     }
