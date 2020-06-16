@@ -257,16 +257,16 @@
         </div>
     </div>
     <script>
-        $("#form").on("submit", function () {
+        /*$("#form").on("submit", function () {
             /*$.ajax({
                 url: '/http://127.0.0.1:5000/form',
                 method: 'GET',
                 dataType: 'plain',
                 data: $(this).serialize(),
-            });*/
+            });
             $.ajax({
                 type: "POST",
-                url: "https://kotgame.pythonanywhere.com/form",
+                url: "http://mail-api-land.herokuapp.com/form",
                 //url: 'http://127.0.0.1:5000/form',
                 data: $('form').serialize(),
                 type: 'POST',
@@ -275,7 +275,21 @@
                     console.log(error);
                 }
             });
-        });
+        });*/
+        $("#form").submit(function (e) {
+                e.preventDefault();
+                var form_data = $(this).serialize();
+                $.ajax({
+                    type: "POST",
+                    url: "https://mail-api-land.herokuapp.com/form", //ссылка
+                    data: form_data,
+                    success: function () {
+                        console.log("Спасибо, Заявка отправлена!")
+                        //alert('Спасибо, Заявка отправлена!'); //То что выводится после успешно отправки
+                        //$('#form')[0].reset(); //скидываем нашу форму
+                    }
+                });
+            });
     </script>
 </body>
 </html>
