@@ -234,7 +234,7 @@
     <a name="contact" class="iacor"></a>
     <div class="contact-form">
         <div class="container">
-            <form id="form">
+            <form id="form" method="POST">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <h1>Связаться с нами</h1>
@@ -265,10 +265,10 @@
                 data: $(this).serialize(),
             });*/
             $.ajax({
-                type: "GET",
-                url: "https://kotgame.pythonanywhere.com/form",
+                type: "POST",
+                url: "http://127.0.0.1:5000/form",
                 data: $('form').serialize(),
-                type: 'GET',
+                type: 'POST',
 
                 error: function (error) {
                     console.log(error);
