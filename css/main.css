@@ -125,6 +125,7 @@
  padding: 5em;
  top: 0;
  border-bottom-left-radius: 0;
+ box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.5);
 }
 
 .contact-form{
