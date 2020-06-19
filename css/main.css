@@ -30,10 +30,10 @@
     padding: 2em;
 }
 .description h2{
-    color:#134783;
+    color:#283593;
 }
 .description p{
-    color:#134783;
+    color:#283593;
     font-size: 1.7em;
     font-weight: 500;
 }
@@ -48,7 +48,7 @@
     position: relative;
 }
 .about h1{
-    color:#134783;
+    color:#283593;
     margin: 2em;
 }
 .about span{
@@ -59,10 +59,13 @@
 }
 .about .desc{
     padding: 2em;
-    border-left:4px solid #10828C;
+    /*border-left: 4px solid #10828C;*/
+    border-left: 4px solid;
+    border-image: linear-gradient(#fc6262,#ffd86f);
+    border-image-slice: 1;
 }
 .about .desc h3{
-    color: #10828C;
+    color: #283593;
 }
 .about .desc p{
     line-height:2;
@@ -71,7 +74,7 @@
 
 /*Portfolio*/
 .portfolio h1{
-    color:#134783;
+    color:#283593;
     margin: 0.5em; 
 }/*
 .carousel-caption{
@@ -101,7 +104,7 @@
  position: relative;  
 }
 .team h1{
- color:#134783;
+ color:#283593;
  margin: 1em 0; 
 }
 .team .item{
@@ -111,7 +114,7 @@
     margin-bottom: 3em;
 }
 .team .des{
- background: #134783;
+ background: #283593;
  color: #fff;
  text-align: center;
  border-bottom-left-radius: 85%;
@@ -120,7 +123,7 @@
 .team .item:hover .des{
  height: 100%;
  /*background:#f973007d;*/
- background:#0c2d537d;
+ background:#1a237e7d;
  position: absolute;
  width: 92%;
  padding: 5em;
@@ -136,13 +139,13 @@
 
 @media (max-width: 992px) {  
     .contact-form h1{
-    color: #134783; 
+    color: #283593; 
     }
 }
 @media (min-width: 993px) {  
     .contact-form h1{
     padding:2em 1px;
-    color: #134783; 
+    color: #283593; 
     }
 }
 .contact-form .right{
@@ -150,13 +153,12 @@
 }
 .contact-form .right .btn-secondary{
  /*background:  #F97300;*/
- background: #134783 !important;
+ background: #283593 !important;
  color: #fff;
  border:0;
 }
 .contact-form .right .btn-secondary:hover{
  /*background:  #F97300;*/
- background: #134783 !important;
  color: #fff;
  border:0;
  box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.5);
