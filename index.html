@@ -26,6 +26,9 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+    <link rel="stylesheet" href="libraries/animated bootstrap hamburger/css/animated_hamburger.css">
+    <script src="libraries/animated bootstrap hamburger/js/animated_hamburger.js"></script>
     <!--<script type="text/javascript" src='js/main.js'></script> -->
     <title>DARK_LED</title>
 </head>
@@ -278,16 +281,6 @@
                         //alert('Спасибо, Заявка отправлена!'); //То что выводится после успешно отправки
                         $('#form')[0].reset(); //скидываем нашу форму
                     }
-                });
-            });
-        $('.navbar-collapse').on('click', function () {
-                $('.navbar-collapse').collapse('hide');
-                $('.navbar-toggler').removeClass("active");
-            });
-
-        $(document).ready(function () {
-                $(".navbar-toggler").on("click", function () {
-                    $(this).toggleClass("active");
                 });
             });
     </script>
