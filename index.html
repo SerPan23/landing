@@ -260,20 +260,6 @@
         </div>
     </div>
     <script>
-        /*$("#form").on("submit", function () {
-            /*
-            $.ajax({
-                type: "POST",
-                url: "http://mail-api-land.herokuapp.com/form",
-                //url: 'http://127.0.0.1:5000/form',
-                data: $('form').serialize(),
-                type: 'POST',
-
-                error: function (error) {
-                    console.log(error);
-                }
-            });
-        });*/
         $("#form").submit(function (e) {
                 e.preventDefault();
                 var form_data = $(this).serialize();
@@ -288,6 +274,9 @@
                         $('#form')[0].reset(); //скидываем нашу форму
                     }
                 });
+            });
+        $('.navbar-collapse').on('click', function () {
+                $('.navbar-collapse').collapse('hide');
             });
     </script>
 </body>
