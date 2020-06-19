@@ -73,14 +73,27 @@
 .portfolio h1{
     color:#134783;
     margin: 0.5em; 
-}
+}/*
 .carousel-caption{
     background-color: rgba(244, 244, 244, 0.79);
-}
+}*/
 .carousel-caption h5, p, h6{ 
-    color: black;
+    color: white;
 }
-
+.carus_over{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.carousel .carousel-indicators li {
+    width: .625rem;
+    height: .625rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
 
 .team{
  margin: 4em 0;
@@ -88,10 +101,13 @@
 }
 .team h1{
  color:#134783;
- margin: 2em; 
+ margin: 1em 0; 
 }
 .team .item{
  position: relative;
+}
+.item{
+    margin-bottom: 3em;
 }
 .team .des{
  background: #134783;
@@ -112,21 +128,36 @@
 }
 
 .contact-form{
- margin: 6em 0;
+ margin: 4em 0;
  position: relative;  
 }
-.contact-form h1{
- padding:2em 1px;
- color: #134783; 
+
+@media (max-width: 992px) {  
+    .contact-form h1{
+    color: #134783; 
+    }
+}
+@media (min-width: 993px) {  
+    .contact-form h1{
+    padding:2em 1px;
+    color: #134783; 
+    }
 }
 .contact-form .right{
  max-width: 600px;
 }
 .contact-form .right .btn-secondary{
  /*background:  #F97300;*/
- background: #134783;
+ background: #134783 !important;
  color: #fff;
  border:0;
+}
+.contact-form .right .btn-secondary:hover{
+ /*background:  #F97300;*/
+ background: #134783 !important;
+ color: #fff;
+ border:0;
+ box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.5);
 }
 .contact-form .right .form-control::placeholder{
  color: #888;
